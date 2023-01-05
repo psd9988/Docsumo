@@ -1,0 +1,205 @@
+#brandLogo {
+  position: absolute;
+  width: 10rem;
+  left: 4rem;
+}
+
+/* heading - Login to your Docsumo account */
+.loginPageHeading {
+  font-size: 22px;
+  font-weight: 550;
+  margin: 0 0 2rem 0;
+  color: rgb(24, 24, 24);
+}
+
+.loginPageHeading2 {
+  font-size: 22px;
+  font-weight: 550;
+  margin: 0 0 0.4rem 0;
+  color: rgb(24, 24, 24);
+}
+
+.errorMessageTxt {
+  min-height: 20px;
+  color: #c70011;
+  padding: 5px 12px 0 12px;
+  border-radius: 4px;
+  background: #fff2f2;
+  border: 1px solid #c70011;
+  font: normal normal 12px/1.16 Lato, sans-serif;
+}
+
+/* Main Container Login Form */
+.loginFormContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 26rem;
+  /* width: 40%; */
+  margin: 2rem auto;
+  padding: 3rem 4rem;
+  border-radius: 0.5rem;
+}
+
+.labelText {
+  display: block;
+  font-size: 15px;
+  color: rgb(84, 83, 83);
+  margin: 1rem 0 0.5rem 0;
+}
+
+/* input Fields */
+.password,
+.email {
+  height: 2.5rem;
+  border-radius: 5px;
+  border: solid grey 1px;
+  padding: 0 0 0 15px;
+  margin: 0 0 0.5rem 0;
+}
+
+.password {
+  margin: 0 0 0.1rem 0;
+}
+
+.password:hover,
+.email:hover {
+  border: solid 1px blue;
+}
+
+.password:focus,
+.email:focus {
+  border: solid 1px black;
+  outline: none;
+}
+
+.password::placeholder,
+.email::placeholder {
+  padding: 0 0 0 0.1rem;
+}
+
+.emailError {
+  color: rgb(198, 19, 92);
+  font-size: 15px;
+  margin: 0 0 0.5rem 0;
+}
+
+.passwordError {
+  color: rgb(198, 19, 92);
+  font-size: 15px;
+}
+
+.forgotPwdTextLink {
+  font-size: 0.9rem;
+  margin: 0.7rem 0 0 18.6rem;
+  text-decoration: none;
+  color: black;
+}
+
+/* Text - Don't have an account? */
+.signUpText {
+}
+
+.signUpLink {
+  color: rgb(98, 116, 253);
+  font-weight: bolder;
+  margin: 0 0 0 0.2rem;
+}
+
+.signupAccTextContainer {
+  margin: 1rem 0 0 0;
+  text-align: center;
+}
+
+.forgotPwdTextLink:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+.loginBtn {
+  background-color: rgb(77, 97, 252);
+  color: white;
+  height: 3rem;
+  border: none;
+  padding: 14px 15px;
+  border-radius: 4px;
+  justify-content: center;
+  font: normal normal 16px/1.25 Lato, sans-serif;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  margin: 2rem 0 0 0;
+  cursor: pointer;
+}
+
+.loaderLoginBtn {
+  background-color: rgb(147, 156, 224);
+  color: white;
+  height: 3rem;
+  border: none;
+  padding: 14px 15px;
+  border-radius: 4px;
+  justify-content: center;
+  font: normal normal 16px/1.25 Lato, sans-serif;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+  margin: 2rem 0 0 0;
+  cursor: pointer;
+}
+
+.loaderIconText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginBtn:hover {
+  background-color: rgb(55, 78, 252);
+}
+
+.chatMessageIcon {
+  color: white;
+  font-size: 30px;
+}
+
+.iconBgColor1 {
+  background-color: rgb(77, 97, 252);
+  width: 50px;
+  padding: 8px 0 6px 15px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1rem;
+  right: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.chatCloseIcon {
+  color: white;
+  font-size: 30px;
+  padding: 0 0 0 0.4rem;
+}
+
+.iconBgColor2 {
+  background-color: rgb(77, 97, 252);
+  width: 50px;
+  padding: 10px 0 6px 15px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 1rem;
+  right: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.iconBgColor2:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.iconBgColor1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.loaderIcon {
+  margin: 0 0.5rem 0 0;
+}
+
+.displayNone {
+  visibility: hidden;
+}
