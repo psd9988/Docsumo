@@ -104,6 +104,11 @@
   color: rgb(98, 116, 253);
   font-weight: bolder;
   margin: 0 0 0 0.2rem;
+  text-decoration: none;
+}
+
+.signUpLink:hover{
+  text-decoration: underline;
 }
 
 .signupAccTextContainer {
@@ -162,11 +167,11 @@
 .iconBgColor1 {
   background-color: rgb(77, 97, 252);
   width: 50px;
-  padding: 8px 0 6px 15px;
+  padding: 12px 0 6px 15px;
   border-radius: 50%;
   position: fixed;
   bottom: 1rem;
-  right: 0;
+  right: 1rem;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -180,11 +185,11 @@
 .iconBgColor2 {
   background-color: rgb(77, 97, 252);
   width: 50px;
-  padding: 10px 0 6px 15px;
+  padding: 15px 0 6px 15px;
   border-radius: 50%;
   position: fixed;
   bottom: 1rem;
-  right: 0;
+  right: 1rem;
   cursor: pointer;
   transition: 0.5s;
 }
