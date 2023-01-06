@@ -19,7 +19,7 @@ export const LoginPage = () => {
       .required("Please enter a valid email address"),
     password: yup
       .string()
-      .min(3, "Please enter a password")
+      .min(1, "Please enter a password")
       .required("Please enter a password"),
   });
 
